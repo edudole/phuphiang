@@ -2,7 +2,7 @@
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   function safeUrl(value) {
     try {
