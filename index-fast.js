@@ -5,7 +5,7 @@
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   const HOMEFAST_CACHE_KEY = 'homefast-v3';
   const HOMEFAST_TTL = 2 * 60 * 1000;
@@ -270,7 +270,7 @@
   'use strict';
 
   const WEB_APP_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const IMAGE_API_URL = WEB_APP_URL + '?mode=images';
 
   const NEWS_API_URL = WEB_APP_URL + '?mode=news';
@@ -900,7 +900,7 @@ async function openNewsPopup(item) {
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   function safeUrl(value) {
     try {
@@ -971,7 +971,7 @@ async function openNewsPopup(item) {
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const SEARCH_PAGES = [
     'activity.html', 'best_practice.html', 'classroom.html', 'cliproom.html',
     'contact.html', 'course.html', 'ex.html', 'innovation.html', 'learning.html',
@@ -1117,7 +1117,7 @@ async function openNewsPopup(item) {
 /* ===== admin-mode.js ===== */
 (() => {
   'use strict';
-  const API_URL='https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+  const API_URL='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const CSS_FILES=['edit-website.css?v=20260827-2','news-manager.css?v=20260902-newsurl-optional-2','newsletter-manager.css?v=20260826-1','newsletter-overlay.css?v=20260826-3','facebook-manager.css?v=20260826-1'];
   const JS_FILES=['edit-website.js?v=20260827-2','news-manager.js?v=20260902-newsurl-optional-2','newsletter-manager.js?v=20260826-4','facebook-manager.js?v=20260826-2'];
   let toolsPromise=null;
@@ -1190,7 +1190,7 @@ async function openNewsPopup(item) {
 
 /* ===== admin-section-guide.js ===== */
 (()=>{'use strict';
-const API='https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+const API='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 const builtins=[
   {id:'studentServicesBox',kind:'builtin',title:'บริการนักศึกษา',visible:true},
   {id:'userBox',kind:'builtin',title:'รายการ User',visible:true},
@@ -1427,7 +1427,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   const fields = {
     userTotal: 'userTotalBox',
@@ -1571,7 +1571,7 @@ window.STUDENT_PROFILE_WEB_APP_URL =
 
   // Web App เดิมของระบบหลัก (ไม่ต้องสร้าง Apps Script แยก)
   const STUDENT_SERVICE_API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   const LEVELS = ['ประถม', 'ม.ต้น', 'ม.ปลาย'];
   const MEDALS = ['🥇1', '🥈2', '🥉3'];
@@ -1741,7 +1741,7 @@ window.STUDENT_PROFILE_WEB_APP_URL =
   'use strict';
 
   const WEB_APP_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const API_URL = WEB_APP_URL + '?mode=usercards';
   let users = [];
   let currentIndex = 0;
@@ -1910,7 +1910,7 @@ window.STUDENT_PROFILE_WEB_APP_URL =
   'use strict';
 
 const WEB_APP_URL =
-  'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+  'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   const INITIAL_ITEMS = 8;
   const $ = id => document.getElementById(id);
@@ -2251,7 +2251,7 @@ function areaCard(area) {
   'use strict';
 
   const ACTIVITY_API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec?mode=activity';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec?mode=activity';
 
   const state = {
     items: []
@@ -2410,7 +2410,7 @@ state.items = (result.activities || [])
 (() => {
   'use strict';
 
-  const API_URL = 'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec?mode=facebook';
+  const API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec?mode=facebook';
   const MAX_HOME_ITEMS = 4;
 
   const esc = value => String(value ?? '')
@@ -2574,7 +2574,7 @@ state.items = (result.activities || [])
   'use strict';
 
   const BOSS_WEB_APP_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const BOSS_API_URL = BOSS_WEB_APP_URL + '?mode=boss';
 
   const text = value => String(value ?? '').trim();
@@ -2874,7 +2874,7 @@ state.items = (result.activities || [])
 /* ===== shopactivity-box.js ===== */
 (() => {
   'use strict';
-  const API_URL='https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+  const API_URL='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const track=document.getElementById('shopActivityTrack');if(!track)return;
   let items=[],page=0,perPage=3,timer=null;
   const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));
@@ -2893,7 +2893,7 @@ state.items = (result.activities || [])
 (() => {
   'use strict';
 
-  const API_URL = 'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+  const API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const TEACHER_URL = API_URL + '?page=teacher';
   let student = JSON.parse(localStorage.getItem('LEARN_STUDENT') || 'null');
   let editProfileRemovePhoto = false;
@@ -3876,7 +3876,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbxwqpydnQSx2aPrQ8yJAN3P9Jkjic-8nNIlOHYFRyarrtTyb26sE_USzXNS7uk478wh8w/exec';
+    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 
   const FALLBACK_PHOTO =
     'https://static.wixstatic.com/media/a503e5_9064df4bf13044dab24382c889fa7d87~mv2.png';
