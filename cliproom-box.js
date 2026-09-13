@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const MAIN_API_URL = 'https://script.google.com/macros/s/AKfycbwnwWu2oaPUU_UUvaYtP0yP4O6cEfZ23N5vUndfFTNbJgpGWaoJaX6yZ6on7MNk2j_1/exec';
+  const MAIN_API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
   const EXEC_CACHE_KEY = 'SITE_FAST:cliproom-exec-v3';
   const EXEC_CACHE_AGE = 10 * 60 * 1000;
   const CATALOG_CACHE_KEY = 'SITE_FAST:cliproom-catalog-v3-dynamic-exec';

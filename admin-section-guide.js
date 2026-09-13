@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const API='https://script.google.com/macros/s/AKfycbwnwWu2oaPUU_UUvaYtP0yP4O6cEfZ23N5vUndfFTNbJgpGWaoJaX6yZ6on7MNk2j_1/exec';
+const API='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
 const builtins=[
   {id:'studentServicesBox',kind:'builtin',title:'บริการนักศึกษา',visible:true},
   {id:'userBox',kind:'builtin',title:'รายการ User',visible:true},
