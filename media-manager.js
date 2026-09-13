@@ -1,4 +1,4 @@
-(()=>{'use strict';const API='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec',state={items:[],query:'',page:1};
+(()=>{'use strict';const API='https://script.google.com/macros/s/AKfycbwnwWu2oaPUU_UUvaYtP0yP4O6cEfZ23N5vUndfFTNbJgpGWaoJaX6yZ6on7MNk2j_1/exec',state={items:[],query:'',page:1};
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 async function api(action,data={}){const token=sessionStorage.getItem('mysiteAdminToken')||'',r=await fetch(API,{method:'POST',cache:'no-store',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({mode:'mediaadmin',action,data,token})}),j=await r.json();if(!r.ok||!j.success)throw new Error(j.message||'ดำเนินการไม่สำเร็จ');return j.data}async function load(){state.items=await api('list')}
 function filtered(){const q=state.query.trim().toLowerCase();return q?state.items.filter(x=>`${x.order} ${x.mediaType} ${x.title} ${x.subject} ${x.grade} ${x.owner} ${x.date}`.toLowerCase().includes(q)):state.items}
