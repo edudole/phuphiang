@@ -2,7 +2,7 @@
   'use strict';
 
   const API_URL =
-    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
+    window.APP_CONFIG.EXEC_URL;
 
   const FALLBACK_PHOTO =
     'https://static.wixstatic.com/media/a503e5_9064df4bf13044dab24382c889fa7d87~mv2.png';
@@ -12,7 +12,7 @@
   function getStudent() {
     try {
       return JSON.parse(
-        localStorage.getItem('LEARN_STUDENT') || 'null'
+        localStorage.getItem('LP360:DISTRICT:LEARN_STUDENT') || 'null'
       );
     } catch (_) {
       return null;
@@ -172,7 +172,7 @@
   });
 
   window.addEventListener('storage', event => {
-    if (event.key === 'LEARN_STUDENT') {
+    if (event.key === 'LP360:DISTRICT:LEARN_STUDENT') {
       renderProfile();
     }
   });

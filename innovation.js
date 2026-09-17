@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const API='https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec?mode=innovation';
+  const API=window.APP_CONFIG.EXEC_URL + '?mode=innovation';
   let items=[];
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
   const safe=v=>{const u=String(v||'').trim();return /^https?:\/\//i.test(u)?u.replace(/^http:\/\//i,'https://'):''};
