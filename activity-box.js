@@ -2,7 +2,7 @@
   'use strict';
 
   const ACTIVITY_API_URL =
-    'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec?mode=activity';
+    window.APP_CONFIG.EXEC_URL + '?mode=activity';
 
   const state = {
     items: []

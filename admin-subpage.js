@@ -1,8 +1,8 @@
 (() => {
   'use strict';
 
-  const API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
-  const token = sessionStorage.getItem('mysiteAdminToken');
+  const API_URL = window.APP_CONFIG.EXEC_URL;
+  const token = sessionStorage.getItem('LP360:DISTRICT:mysiteAdminToken');
   const buttons = Array.from(document.querySelectorAll('.admin-manage-data-button'));
 
   function setAdminMode(enabled) {
@@ -29,8 +29,8 @@
       if (!response.ok || !result.success) throw new Error('Invalid admin session');
       setAdminMode(true);
     } catch (error) {
-      sessionStorage.removeItem('mysiteAdminToken');
-      sessionStorage.removeItem('mysiteAdminName');
+      sessionStorage.removeItem('LP360:DISTRICT:mysiteAdminToken');
+      sessionStorage.removeItem('LP360:DISTRICT:mysiteAdminName');
       setAdminMode(false);
     }
   }

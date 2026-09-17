@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec';
+  const API_URL = window.APP_CONFIG.EXEC_URL;
   const CONFIG = {
     text: { title: 'แก้ไขข้อความ', range: 'setting!S1:T4' },
     image: { title: 'แก้ไขโลโก้ ชื่อ รูปหัวเว็บไซต์', range: 'website_image!A1:B4' }
@@ -57,7 +57,7 @@
   })[char]);
 
   async function request(params) {
-    const token = sessionStorage.getItem('mysiteAdminToken') || '';
+    const token = sessionStorage.getItem('LP360:DISTRICT:mysiteAdminToken') || '';
     const response = await fetch(API_URL, {
       method: 'POST', cache: 'no-store',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },

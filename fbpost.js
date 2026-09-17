@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const API_URL = 'https://script.google.com/macros/s/AKfycbz6es2Jx-7hBv_TCsCTISLccFi3Tx2C3hbnYGhe8K8HHoVDNJH74Jcy-j5Z4C0dNKc/exec?mode=facebook';
+  const API_URL = window.APP_CONFIG.EXEC_URL + '?mode=facebook';
   const PAGE_SIZE = 4;
   const state = { items: [], filteredItems: [], page: 0 };
 
@@ -70,7 +70,7 @@
     )].sort((a,b) => a.localeCompare(b,'th'));
 
     select.innerHTML =
-      '<option value="">ทุกพื้นที่</option>' +
+      '<option value="">ทั้งหมด</option>' +
       areas.map(area => `<option value="${esc(area)}">${esc(area)}</option>`).join('');
   }
 
